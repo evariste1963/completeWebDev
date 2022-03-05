@@ -3,6 +3,17 @@ body {
   padding: 0;
 }
 
+.sticky {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  opacity: 75%;
+}
+
+.cover {
+  width: 40rem;
+}
+
 .zone {
   /*padding:30px 50px;
     margin:40px 60px;*/
@@ -25,6 +36,13 @@ body {
     inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
   box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
     inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+}
+
+.box:hover {
+  -webkit-transform: rotate(-7deg);
+  -moz-transform: rotate(-7deg);
+  -o-transform: rotate(-7deg);
+  transform: rotate(-7deg);
 }
 
 /*NAV*/
